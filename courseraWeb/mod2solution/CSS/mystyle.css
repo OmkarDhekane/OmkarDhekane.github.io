@@ -34,7 +34,7 @@ h2{
 .heading{
 	float: right;
 	width: 23%;
-	border:2px solid black;
+	border:1px solid black;
 	font-size: 10px;
 	text-align: center;
 	border-top: 0px;
@@ -46,7 +46,7 @@ h2{
 	font-family: sans-serif;
 	width: 100%;
     margin: 12px 3px;
-    border: 2px solid black;
+    border: 1px solid black;
     padding-left: 20px;
    	background-color: gray;
 }
