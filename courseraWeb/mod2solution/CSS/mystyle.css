@@ -1,0 +1,137 @@
+.contain{
+
+	width: 100%;
+	margin: center;
+
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin:30px;
+}
+
+h2{
+	color: white;
+	font-family: sans-serif;
+	margin: 1px 1px;
+	padding:1px;
+	text-align: center;
+}
+
+#wp{
+	background-color: red;
+}
+#mis{
+	background-color: green;
+}
+#bak{
+	background-color: blue;
+}
+
+.heading{
+	float: right;
+	width: 23%;
+	border:2px solid black;
+	font-size: 10px;
+	text-align: center;
+	border-top: 0px;
+	
+
+}
+
+.content{
+	width: 100%;
+    margin: 12px 3px;
+    border: 2px solid black;
+    padding-left: 20px;
+   	background-color: gray;
+
+
+
+}
+
+body{
+	position: relative;
+	top:150px;
+	left: 30px;
+}
+
+
+/************ large size compo ****************/
+
+@media (min-width: 992px)
+{
+
+	#wada{
+		background-color: grey;
+		float: left;
+		width: 29.5%;
+
+	}
+	#misal{
+		background-color: grey;
+		float: left;
+		width: 29.5%;
+
+	}	  
+	#bakar{
+		background-color: grey;
+		float: left;
+		width: 29.5%; 
+
+	}	  
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #wada {
+        background-color: gray;
+        float: left;
+        width: 42%;
+    }
+
+    #misal {
+        background-color: gray;
+        float: left;
+        width: 42%;
+
+    }
+
+    #bakar {
+        background-color: gray;
+        float: left;
+        width: 88%;
+    }
+
+
+}
+
+/****************** Small devices ***************/
+ @media (max-width: 767px)
+{
+        #wada {
+            
+            float: left;
+            width: 85%;
+        }
+
+        #misal {
+            
+            float: left;
+            width: 85%;
+
+        }
+
+        #bakar {
+            
+            float: left;
+            width: 85%;
+        }
+    
+}
