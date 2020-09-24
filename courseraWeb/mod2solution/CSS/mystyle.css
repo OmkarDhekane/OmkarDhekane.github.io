@@ -24,12 +24,15 @@ h2{
 
 #wp{
 	background-color: #ff6666;
+	color: black;
 }
 #mis{
 	background-color: #66cc66;
+	color: black;
 }
 #bak{
 	background-color: #6599cd;
+	color: black;
 }
 
 .heading{
@@ -49,7 +52,7 @@ h2{
     margin: 12px 3px;
     border: 1px solid black;
     padding-left: 20px;
-   	background-color: gray;
+   	color: white;
 }
 
 body{
