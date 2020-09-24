@@ -24,24 +24,22 @@ h2{
 
 #wp{
 	background-color: #ff6666;
-	color: black;
 }
 #mis{
 	background-color: #66cc66;
-	color: black;
 }
 #bak{
 	background-color: #6599cd;
-	color: black;
 }
 
 .heading{
 	float: right;
-	width: 23%;
+	width: 100px;
 	border:1px solid black;
 	font-size: 10px;
 	text-align: center;
 	border-top: 0px;
+	padding:10px;
 
 
 }
@@ -49,12 +47,19 @@ h2{
 .content{
 	font-family: sans-serif;
 	width: 100%;
+	height: 270px;
     margin: 12px 3px;
     border: 1px solid black;
     padding-left: 20px;
-   	color: white;
+   	background-color: gray;
+   	font-weight: bold;
 }
 
+div p{
+	padding-right: 5px;
+	margin-top: 50px;
+	color: white;
+}
 body{
 	position: relative;
 	top:150px;
@@ -91,7 +96,7 @@ body{
 }
 
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) 
+@media (min-width: 768px) and (max-width: 992px) 
 {
     #wada {
         background-color: gray;
@@ -116,7 +121,7 @@ body{
 }
 
 /****************** Small devices only ***************/
- @media (max-width: 767px)
+ @media (max-width: 768px)
 {
         #wada {
             
