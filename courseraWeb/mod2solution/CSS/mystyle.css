@@ -14,7 +14,7 @@ h1
 }
 
 h2{
-	color: white;
+	
 	font-family: sans-serif;
 	margin: 1px 1px;
 	padding:1px;
@@ -22,13 +22,13 @@ h2{
 }
 
 #wp{
-	background-color: red;
+	background-color: #ff6666;
 }
 #mis{
-	background-color: green;
+	background-color: #66cc66;
 }
 #bak{
-	background-color: blue;
+	background-color: #6599cd;
 }
 
 .heading{
@@ -43,14 +43,12 @@ h2{
 }
 
 .content{
+	font-family: sans-serif;
 	width: 100%;
     margin: 12px 3px;
     border: 2px solid black;
     padding-left: 20px;
    	background-color: gray;
-
-
-
 }
 
 body{
@@ -60,7 +58,8 @@ body{
 }
 
 
-/************ large size compo ****************/
+
+/************ large devices only ****************/
 
 @media (min-width: 992px)
 {
@@ -112,7 +111,7 @@ body{
 
 }
 
-/****************** Small devices ***************/
+/****************** Small devices only ***************/
  @media (max-width: 767px)
 {
         #wada {
