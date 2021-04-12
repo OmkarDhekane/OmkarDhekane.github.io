@@ -73,7 +73,7 @@ h2 {
 /************** Super Extra small ************************/
 @media (max-width: 479px) {
   .container {
-    width: 60%;
+    width: 70%;
   }
   h2 {
     font-size: 2.5em;
