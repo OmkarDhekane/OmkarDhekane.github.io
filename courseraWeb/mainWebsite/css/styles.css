@@ -4,6 +4,9 @@ body {
   background-color: #61122f;
   font-family: "Oxygen", sans-serif;
 }
+#index-id {
+  font-size: 1.5em;
+}
 
 /** HEADER **/
 #header-nav {
