@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  background-color: #f7f7f7;
+}
+.title {
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  top: 13px;
+  animation: onloadtitle 2s;
+}
+section {
+  text-align: center;
+  margin: 5% auto;
+}
+section:last-child {
+  margin-top: 0px;
+}
+
+section h1 {
+  letter-spacing: 0.02rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #134467;
+}
+section div {
+  margin-top: 5%;
+  color: #232f36;
+  font-weight: 500;
+}
+.projects div span {
+  font-size: 1.5rem;
+  color: #232f36;
+}
+
+.yellow-bg2 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: -80px;
+  /* background-color: #fcbe2f; */
+  background-color: #134467;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transform: skewY(6deg);
+  animation: onloadanimationbg 2s;
+  z-index: -1;
+}
+.mypic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  animation: onloadanimationimg 1.9s;
+  z-index: -1;
+}
+.main {
+  position: relative;
+  top: 20%;
+}
+.main2 {
+  position: relative;
+  top: 350px;
+  width: 50%;
+  margin: auto;
+  animation: onloadcontent 3s;
+}
+
+nav {
+  position: relative;
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+  /* top: 13px; */
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  line-height: 45px;
+  transition: linear;
+  animation: onloadnav 2s;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav ul li a:hover {
+  border-bottom: 5px solid #f7f7f7;
+}
+
+.pict {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.pict img {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+}
+.pict span {
+  margin-left: 50px;
+  text-align: left;
+  font-size: large;
+}
+.certificates div {
+  margin-bottom: 80px;
+}
+.certificates img {
+  width: 100%;
+  margin-bottom: 30px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.certificates img:hover {
+  transform: scale(1.1);
+}
+.projects div span span {
+  font-size: 1rem;
+
+  color: rgb(136, 148, 156);
+}
+.info ul li {
+  list-style: circle;
+  margin-left: 24%;
+  font-size: 1.1rem;
+  color: #232f36;
+  text-align: left;
+}
+#sec5 h3 a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+#sec5 h3 a:hover {
+  font-weight: 600;
+}
+/* ---------------------- Animations  --------------- */
+@keyframes onloadtitle {
+  from {
+    top: -500px;
+  }
+  to {
+    top: 13px;
+  }
+}
+
+@keyframes onloadanimationimg {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 15%;
+  }
+}
+
+@keyframes onloadanimationbg {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 50%;
+  }
+}
+
+@keyframes onloadcontent {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+@keyframes onloadnav {
+  from {
+    top: -500px;
+    right: -300px;
+    display: none;
+  }
+  to {
+    top: 0px;
+    right: 0px;
+    display: block;
+  }
+}
+
+.toggling {
+  display: inline-block;
+  height: 2rem;
+  width: 4rem;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 3px solid #000;
+  cursor: pointer;
+  transition: 0.15s ease-out;
+}
+.circle {
+  background-color: black;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin: 0.1rem;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.toggleClass {
+  background-color: #134467;
+}
+.toogleBtn,
+.btn {
+  border: 3px solid #fff;
+}
+.btn {
+  background-color: #fff;
+  margin-left: 2rem;
+  transition: 0.15s ease-out;
+}
+
+/* -------------- queries ------------ */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  nav {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .title {
+    font-size: 2.1rem;
+  }
+  .mypic {
+    width: 250px;
+    height: 250px;
+  }
+  .certificates img {
+    height: 400px;
+  }
+  section h1 {
+    font-size: 1.8rem;
+  }
+  section div {
+    margin-top: 0%;
+  }
+}
+@media (max-width: 425px) {
+  .yellow-bg2 {
+    height: 20%;
+  }
+}

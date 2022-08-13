@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web profile (31223)</title>
+        <link rel="stylesheet" href="styles.css">
+   </head>
+
+    <body>
+        <h1 class="title">Hello! I'm Omkar</h1>
+
+
+        <div class="yellow-bg2"></div>
+        <img src="util/mypic.jpg" alt="mypic" class="mypic"/>
+
+
+
+        <nav>
+            <!-- <button class="toggling" onclick="toggle()">
+                <div class="circle"></div>
+            </button> -->
+            <ul>
+                <li><a href="#sec1">Education</a></li>
+                <li><a href="#sec2">Experience</a></li>
+                <li><a href="#sec3">Certifications</a></li>
+                <li><a href="#sec4">My Information</a></li>
+            </ul>
+        </nav>
+
+        <div class="main2">
+            <section id="sec1">
+               <h1>Educational Qualification</h1>
+                <div class="pict">
+                    <img src="util/pict-log.png" alt="pict-logo">
+                    <span>
+                        <h1 style="font-size: 1.5rem;">Pune Institute of Computer Technology,Pune</h1>
+                        <h2 style="font-size:1rem;font-weight:500">Bachelor of Engineering -Computer Engineering</h2>
+                        <h4 style="font-size:1rem;font-weight:500;color: rgb(136, 148, 156);">June 2019-June 2023</h4>
+                        <br/>
+                        <h4>CGPA: 9.53</h4>
+                    </span>
+                </div>
+            </section>
+            <br/>
+            <section id="sec2">
+                <h1>Work Experience/Projects</h1>
+                <div class="projects">
+                    <div>
+                        <span>Spark Foundation <span>(July 2021-Auguest 2021)</span></span>
+                        <hr style="margin-top:5px;"/>
+                        <br>
+                        <p>
+                            Technologies used: Python,Pandas,Numpy,Matplotlib <br>
+                            Worked as a data science intern. where applied the decision tree classifier on iris dataset to classify various species of flower.</p>
+                    </div>
+                    <div>
+                        <span>Recruitme <span>(September 2021-November 2021)</span></span>
+                        <hr style="margin-top:5px;"/>
+                        <br>
+                        <p>
+                            Technologies used: Django,Bootstrap,MySQL <br>
+                            Worked on the frontend part of a system that helps recruiters effectively manage job applicant’s data, such as test and interview round scores, in a structured way.</p>
+                    </div>
+                </div>
+            </section>
+            <br/>
+            <section id="sec3">
+            <h1>Cerifications</h1>
+                <div class="certificates">
+                    <div>
+                        <img src="util/Data Analytics Using Python.jpg" alt="cert1" width="800" height="600">
+                        <span>Data Analytics using Python</span>
+                    </div>
+                    <div>
+                        <img src="util/Graphics Certificate_FINAL_Page_32.jpg" alt="cert2" width="800" height="500" style="border:5px solid #134467;">
+                        <span>Graphics Design Tools with Blender</span>
+                </div>
+                <div>
+                    <img src="util/certi3.png" alt="cert3" width="800" height="600" style="border:5px solid #134467;">
+                    <span>Machine Learning offered by Stanford University</span>
+                </div>
+                </div>
+            </section>
+            <br/>
+            <section id="sec4">
+                <h1>Personal Information</h1>
+                 <div class="info">
+                     <ul>
+                         <li>Full Name: Omkar Jayant Dhekane</li>
+                         <li>Current Location: Kothrud,Pune-38</li>
+                         <li>Nationality: Indian</li>
+                         <li>Date of Birth: 12-12-2001</li>
+                         <li>Preferred Language: English, Hindi, Marathi</li>
+                        <li>Hobbies: Sketching,Tabla Player</li>
+
+                     </ul>
+                 </div>
+            </section>
+            <br/>
+            <section id="sec5">
+                <h3>Follow me on:&nbsp;
+                    <a href="https://twitter.com/Omkar_Dhekane" target="_blank">Twitter</a>,
+                    <a href="https://www.linkedin.com/in/omkar-dhekane-03537a1b0/" target="_blank">LinkedIn</a>,
+                    <a href="https://github.com/OmkarDhekane/" target="_blank">GitHub</a>
+                </h3>
+                <br/>
+                 </div>
+            </section>
+            <br/>
+        </div>
+    </body>
+    <script>
+        function toggle() {
+            var bk = document.querySelector('.yellow-bg2');
+            var toggling = document.querySelector('.toggling');
+            var btn = document.querySelector('.circle');
+            bk.classList.toggle("toggleClass");
+            toggling.classList.toggle("toogleBtn");
+            btn.classList.toggle("btn");
+
+        }
+    </script>
+</html>

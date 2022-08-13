@@ -1,0 +1,60 @@
+.icon-bar {
+    position: fixed;
+    /* top: 50%; */
+    bottom: 1%;
+    right: 1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Style the social media icons with color, if you want */
+.icon-bar a:hover{
+    transform: translateY(-5px);
+
+}
+
+/* #24292f */
+.github,.linkedin,.twitter,.instagram{
+    color: white;
+}
+  .github:hover {
+    background: #24292f;
+
+  }
+
+  .linkedin:hover {
+    background: #007bb5;
+  }
+
+  .twitter:hover {
+    background: #55ACEE;
+  }
+  .instagram:hover{
+    background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+@media (max-width: 768px) {
+    .icon-bar{
+        bottom:0;
+        /* left: 0; */
+        transform: translateY(1%);
+    }
+
+
+}
